@@ -1,0 +1,45 @@
+@font-face{
+  font-family:"bizud-pgothic-regular";
+  src: url("../fonts/BIZUDPGothic-Regular.ttf");
+}
+.u-font-bizud-pgothic-regular{
+  font-family: "bizud-pgothic-regular";
+}
+
+@font-face{
+  font-family:"bizud-pgothic-bold";
+  src: url("../fonts/BIZUDPGothic-Bold.ttf");
+}
+.u-font-bizud-pgothic-bold{
+  font-family: "bizud-pgothic-bold";
+}
+
+@font-face{
+  font-family:"mplus1-regular";
+  src: url("../fonts/Mplus1-Regular.ttf");
+}
+.u-font-mplus1-regular{
+  font-family: "mplus1-regular";
+}
+
+@font-face{
+  font-family:"mplus1-bold";
+  src: url("../fonts/Mplus1-Bold.ttf");
+}
+.u-font-mplus1-bold{
+  font-family: "mplus1-bold";
+}
+
+@font-face{
+  font-family:"yujisyuku-regular";
+  src: url("../fonts/YujiSyuku-Regular.ttf");
+}
+.u-font-yujisyuku-regular{
+  font-family: "yujisyuku-regular";
+}
+
+
+.u-large{
+  font-size:50px;
+  line-height: 1em;
+}

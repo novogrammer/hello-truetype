@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hello truetype</title>
+    <link href="./assets/css/index.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="p-pixi">
+      <canvas class="p-pixi__canvas"></canvas>
+    </div>
+    <div class="p-three">
+      <canvas class="p-three__canvas"></canvas>
+    </div>
+    <h2>BIZUDPGothic-Regular</h2>
+    <p class="u-large u-font-bizud-pgothic-regular">あいうえお𰻞𰻞麺</p>
+    <h2>BIZUDPGothic-Bold</h2>
+    <p class="u-large u-font-bizud-pgothic-bold">あいうえお𰻞𰻞麺</p>
+    <h2>Mplus1-Regular</h2>
+    <p class="u-large u-font-mplus1-regular">あいうえお𰻞𰻞麺</p>
+    <h2>Mplus1-Bold</h2>
+    <p class="u-large u-font-mplus1-bold">あいうえお𰻞𰻞麺</p>
+    <h2>YujiSyuku-Regular</h2>
+    <p class="u-large u-font-yujisyuku-regular">あいうえお𰻞𰻞麺</p>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.147.0/build/three.module.js",
+          "pixi.js": "https://unpkg.com/pixi.js@7.0.4/dist/pixi.min.mjs"
+        }
+      }
+    </script>
+    <script type="module">
+      import "./assets/js/index.mjs";
+    </script>
+  </body>
+  </html>
